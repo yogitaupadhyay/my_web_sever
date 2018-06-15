@@ -21,9 +21,7 @@ app.use((req,res,next)=>{
   });
 next();
 });
-app.use((req,res,next)=>{
-  res.render('maintainance');
-});
+
 //////////////////////////////mostbasic way/////////////
 app.get('/' ,(req,res)=>{
 //  res.send('hellow man');
